@@ -3,7 +3,7 @@ project:
   prefix: DEMO
   human_name: 'Demo sites'
   profile:
-    name: standard
+    name: lightning
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
@@ -34,4 +34,4 @@ modules:
     uninstall: [devel, views_ui]
 multisites:
   - default
-  - site1.demo-sites
+  - site1.demo-sites.com
